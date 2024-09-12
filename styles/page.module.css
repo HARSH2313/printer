@@ -1,0 +1,58 @@
+/* styles/page.module.css */
+.container {
+    padding: 20px;
+  }
+  
+  .welcomeSection {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .textContainer {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .imageContainer {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .image {
+    max-width: 100%;
+    height: auto;
+  }
+  .image1 {
+    max-width: 10%;
+    height: auto;
+  }
+    
+  .contactSection {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .p {
+    font-size: 24px;
+  }
+  
+  .section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  .section1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+  }

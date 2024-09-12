@@ -1,0 +1,34 @@
+/* ChatDrawer.module.css */
+
+.chatButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+  }
+  
+  .chatContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .chatList {
+    flex: 1;
+    overflow-y: auto;
+  }
+  
+  .chatMessage {
+    border-radius: 0;
+    margin-bottom: 5px;
+  }
+  
+  .chatForm {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .sendButton {
+    flex-shrink: 0;
+  }
+  

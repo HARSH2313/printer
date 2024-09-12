@@ -1,0 +1,76 @@
+/* styles/Header.module.css */
+.header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+    font-size: 20px;
+  }
+  
+  .primaryNav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+  }
+  
+  .navLinks {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navLinks a {
+    margin-left: 20px;
+    color: #333;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .navLinks .navItem {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navLinks .icon {
+    margin-right: 8px;
+    font-size: 20px; /* Adjust as needed */
+  }
+  
+  .hkIcon {
+    font-weight: bold;
+    font-size:larger; /* Adjust size as needed */
+  }
+  
+  .rightSection {
+    display: flex;
+    align-items: center;
+  }
+  
+  .searchInput {
+    padding: 5px;
+    margin-right: 10px;
+  }
+  
+  .iconButton, .signInButton {
+    border: none;
+    background: none;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .secondaryNav {
+    background-color: #f0f0f0;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .secondaryNav a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .secondaryNav a:hover {
+    text-decoration: underline;
+  }
+  

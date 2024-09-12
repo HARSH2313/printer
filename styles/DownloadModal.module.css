@@ -1,0 +1,59 @@
+/* styles/DownloadModal.module.css */
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  
+  .modal {
+    max-width: 600px;
+    margin: auto;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 10px;
+    position: relative;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  
+  .content {
+    text-align: center;
+  }
+  
+  .progress {
+    margin: 1rem 0;
+    height: 20px;
+    background: #eee;
+    border-radius: 5px;
+    position: relative;
+  }
+  
+  .progressBar {
+    height: 100%;
+    background: #0070f3;
+    border-radius: 5px;
+    transition: width 0.5s ease;
+  }
+  
+  .warning {
+    margin-top: 1rem;
+  }
+  
+  .warning p {
+    color: #d9534f;
+  }
+  
+  .warning button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    background: #0070f3;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .warning button:hover {
+    background: #005bb5;
+  }
+  

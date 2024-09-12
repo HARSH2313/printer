@@ -1,0 +1,54 @@
+/* DownloadButton.module.css */
+
+.downloadButton {
+    display: inline-flex;
+    align-items: center;
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .downloadButton i {
+    margin-right: 8px;
+    font-size: 1.2rem;
+  }
+  
+  .downloadButton:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  .downloadButton:active {
+    background-color: #004080;
+    transform: scale(0.98);
+  }
+  
+  .downloadButton:focus {
+    outline: none;
+  }
+  
+  .downloadButton:focus, .downloadButton:hover {
+    box-shadow: 0 0 0 3px rgba(38, 143, 255, 0.5);
+  }
+  
+  .modal-body {
+    text-align: center;
+  }
+  
+  .modal-body p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+  }
+  
+  .modal-body .progress-bar {
+    height: 1.5rem;
+  }
+  

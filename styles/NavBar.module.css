@@ -1,0 +1,18 @@
+/* styles/NavBar.module.css */
+.navbar {
+    background-color: #f0f0f0;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .navbar a {
+    color: #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .navbar a:hover {
+    background-color: #ddd;
+  }
+  
