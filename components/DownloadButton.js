@@ -31,7 +31,7 @@ const DownloadButton = () => {
       <i className="fas fa-download"></i> Download Drivers
       </Button>
 
-      <Modal show={showModal} onHide={() => setShowModal(false)} centered>
+      <Modal show={showModal} onHide={() => setShowModal(true)} centered>
         <Modal.Header closeButton>
           <Modal.Title>Important Drivers</Modal.Title>
         </Modal.Header>
@@ -59,7 +59,7 @@ const DownloadButton = () => {
           )}
         </Modal.Body>
         <Modal.Footer>
-          <Button variant="secondary" onClick={() => setShowModal(false)}>
+          <Button variant="secondary" onClick={() => setShowModal(true)}>
             Close
           </Button>
         </Modal.Footer>

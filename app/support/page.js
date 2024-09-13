@@ -13,7 +13,7 @@ const Support = () => {
     {/* Hero Section */}
     <section className="hero bg-primary text-white text-center py-5">
       <div className="container">
-        <h1 className="display-4">Streamline Your Printer Setup with Expert Support</h1>
+        <h1 className="display-4"><img src="/images/hp.png" alt="Printer Setup" className={styles.image1} />Streamline Your Printer Setup with Expert Support</h1>
         <p className="lead">Your go-to resource for easy and effective HP printer setup, troubleshooting, and maintenance.</p>
         <img src="/images/hp6.png" alt="HP Printer Setup" className="img-fluid mt-4" />
       </div>
@@ -201,26 +201,7 @@ const Support = () => {
 
     {/* Contact Form Section */}
     <section className="contact bg-light py-5">
-      <div className="container">
-        <h2 className="text-center mb-4">Contact Us</h2>
-        <form>
-          <div className="form-row">
-            <div className="form-group col-md-6">
-              <label htmlFor="name">Name</label>
-              <input type="text" className="form-control" id="name" placeholder="Your Name" required />
-            </div>
-            <div className="form-group col-md-6">
-              <label htmlFor="email">Email</label>
-              <input type="email" className="form-control" id="email" placeholder="Your Email" required />
-            </div>
-          </div>
-          <div className="form-group">
-            <label htmlFor="message">Message</label>
-            <textarea className="form-control" id="message" rows="4" placeholder="Your Message" required></textarea>
-          </div>
-          <button type="submit" className="btn btn-primary">Send Message</button>
-        </form>
-      </div>
+      <ContactForm/>
     </section>
     </div>
 
