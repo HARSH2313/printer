@@ -73,22 +73,17 @@ const PrinterSetupClient = () => {
         <Accordion>
           <Accordion.Item eventKey="0">
             <Accordion.Header>How do I reset my printer to factory settings?</Accordion.Header>
-            <Accordion.Body>
-              To reset your printer to factory settings, navigate to the printer's settings menu and look for the option to restore default settings. Consult your printer’s user manual for detailed instructions.
-            </Accordion.Body>
+            <Accordion.Body>To reset an HP Inkjet or OfficeJet printer to its factory settings, first ensure that the printer is powered on. For models with a touchscreen, tap the Setup icon, which usually looks like a gear or wrench. For those without a touchscreen, press the Setup or Menu button on the control panel. Navigate to the Restore Defaults or Factory Reset option and confirm the action when prompted. The printer will then reset and restart automatically.
+
+For HP LaserJet printers, begin by turning on the printer. Press the Menu button and navigate to the Administration or Setup menu. Look for an option labeled Restore Factory Defaults or Reset Printer, select it, and confirm the reset. If required, restart the printer manually.
+
+If you are using an HP DesignJet printer, ensure it is powered on, then access the menu. Navigate to Setup or Configuration and choose the Factory Reset option. Confirm the reset, and allow the printer to restart.</Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="1">
             <Accordion.Header>Why is my printer not connecting to Wi-Fi?</Accordion.Header>
-            <Accordion.Body>
-              Ensure your printer is within range of your Wi-Fi network. Restart your router and printer, and try connecting again. If the issue persists, check for firmware updates or consult the printer’s support page.
-            </Accordion.Body>
+            <Accordion.Body>If your printer isn't connecting to Wi-Fi, there are several steps you can take to troubleshoot the issue. First, ensure that your Wi-Fi network is functioning properly and that other devices can connect to it. Restarting your printer, router, and computer can often resolve connectivity issues. Check your printer's Wi-Fi settings to make sure it is turned on and connected to the correct network, and consider updating the printer’s firmware if there is an available update. Ensure your printer is within range of the Wi-Fi network and not obstructed by physical barriers or interference. Reconfiguring the wireless setup, either through the printer’s menu or a companion app, might also help. Additionally, verify that your printer has a unique IP address to avoid conflicts with other devices on the network and check that firewall or security settings aren’t blocking the connection. If none of these solutions work, try reinstalling the printer drivers and software on your computer. For specific guidance tailored to your printer model, consult us and We will help you with the setup.</Accordion.Body>
           </Accordion.Item>
-          <Accordion.Item eventKey="2">
-            <Accordion.Header>Can I use third-party ink cartridges?</Accordion.Header>
-            <Accordion.Body>
-              While third-party ink cartridges may be compatible, using the manufacturer’s recommended cartridges ensures optimal performance and quality. Check your printer's warranty and compatibility guidelines before using third-party options.
-            </Accordion.Body>
-          </Accordion.Item>
+          
         </Accordion>
       </section>
 
@@ -144,13 +139,13 @@ const PrinterSetupClient = () => {
         <p>Our support team is here to help you.</p>
         <ListGroup>
           <ListGroup.Item>
-            <Link href="/faq" className="btn btn-primary">FAQs</Link>
+            <Link href="/troubleshooting" className="btn btn-primary">FAQs</Link>
           </ListGroup.Item>
           <ListGroup.Item>
-            <Link href="mailto:support@example.com" className="btn btn-secondary">Contact Us</Link>
+            <Link href="/troubleshooting" className="btn btn-secondary">Contact Us</Link>
           </ListGroup.Item>
           <ListGroup.Item>
-            <Link href="/live-chat" className="btn btn-success">Live Chat</Link>
+            <Link href="/troubleshooting" className="btn btn-success">Live Chat</Link>
           </ListGroup.Item>
         </ListGroup>
       </section>
@@ -159,13 +154,13 @@ const PrinterSetupClient = () => {
         <h2 className="mb-3">Additional Resources</h2>
         <ListGroup>
           <ListGroup.Item>
-            <Link href="/user-manuals" className="btn btn-info">User Manuals</Link>
+            <Link href="/troubleshooting" className="btn btn-info">User Manuals</Link>
           </ListGroup.Item>
           <ListGroup.Item>
-            <Link href="/video-tutorials" className="btn btn-info">Video Tutorials</Link>
+            <Link href="/troubleshooting" className="btn btn-info">Video Tutorials</Link>
           </ListGroup.Item>
           <ListGroup.Item>
-            <Link href="/maintenance-tips" className="btn btn-info">Maintenance Tips</Link>
+            <Link href="/troubleshooting" className="btn btn-info">Maintenance Tips</Link>
           </ListGroup.Item>
         </ListGroup>
       </section>

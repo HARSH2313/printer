@@ -22,16 +22,11 @@ const HomePage = () => {
         </div>
         <div className={styles.textContainer}>
           <h2>Home Printer Setup</h2>
-          <p>
-A printer is a must-have for any busy family or work-at-home professional. From printing homework and coloring pictures to important work documents, modern printers are high quality, affordable, and easy to use.
+          <p>A reliable printer is essential for any busy family or work-from-home professional. Whether you need to print homework, artwork, or critical work documents, today's printers offer high quality, affordability, and ease of use. However, setting up Wi-Fi-enabled printers can sometimes be tricky.
 
-However, even the easiest printers to set up can be a hassle if something doesn't work as expected. Wifi enabled printers for home in particular can be a challenge to get set up and working properly on your home network.
+If you have an HP Officejet, HP Envy, HP Deskjet, or HP ColorJet, our experienced IT technicians at Dave’s Computers are here to help. We specialize in getting your printer up and running smoothly by installing drivers and software, connecting to your home network, and troubleshooting any issues.
 
-Whether you have an HP, Epson, Canon, or other printer or scanner, our experienced IT technicians can get it set up, install the drivers and software on your computers and other devices, and troubleshoot any problems.
-
-If you've just bought a new home printer that needs setting up, your printer has stopped working, or you need to get a printer working with a new computer, we can help. Get in touch with the team at Dave's Computers and we'll schedule a time to vist that's convenient for you.
-
-</p>
+Whether you've just purchased a new printer, your current printer has stopped working, or you need to connect your printer to a new computer, we've got you covered. Contact us to schedule a convenient time for a visit from our team, and let us handle the technical details so you can get back to printing with ease.</p>
         </div>
       </div>
 

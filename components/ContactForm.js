@@ -22,7 +22,7 @@ const ContactForm = () => {
   const [formData, setFormData] = useState({
     name: '',
     model: '',
-    phoneNumber: ''
+    email: '' // Changed from phoneNumber to email
   });
   const [showModal, setShowModal] = useState(false);
   const [modalMessage, setModalMessage] = useState('');
@@ -98,14 +98,14 @@ const ContactForm = () => {
           </Form.Control>
         </Form.Group>
 
-        <Form.Group controlId="formPhoneNumber" className="mb-3">
-          <Form.Label>Phone Number</Form.Label>
+        <Form.Group controlId="formEmail" className="mb-3">
+          <Form.Label>Email Address</Form.Label>
           <Form.Control
-            type="tel"
-            name="phoneNumber"
-            value={formData.phoneNumber}
+            type="email"
+            name="email"
+            value={formData.email}
             onChange={handleChange}
-            placeholder="Enter your phone number"
+            placeholder="Enter your email address"
             aria-required="true"
             required
           />
@@ -116,17 +116,16 @@ const ContactForm = () => {
         </Button>
       </Form>
 
-      <Modal show={showModal} onHide={() => setShowModal(true)}>
+      <Modal show={showModal} onHide={() => setShowModal(false)}>
         <Modal.Header closeButton>
           <Modal.Title>Message</Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <p>{modalMessage}</p>
-          {/* You can adjust the link and text as needed */}
           <DownloadButton/>
         </Modal.Body>
         <Modal.Footer>
-          <Button variant="secondary" onClick={() => setShowModal(true)}>
+          <Button variant="secondary" onClick={() => setShowModal(false)}>
             Close
           </Button>
         </Modal.Footer>
