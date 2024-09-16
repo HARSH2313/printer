@@ -24,7 +24,7 @@ const HomePage = () => {
           <h2>Home Printer Setup</h2>
           <p>A reliable printer is essential for any busy family or work-from-home professional. Whether you need to print homework, artwork, or critical work documents, today's printers offer high quality, affordability, and ease of use. However, setting up Wi-Fi-enabled printers can sometimes be tricky.
 
-If you have an HP Officejet, HP Envy, HP Deskjet, or HP ColorJet, our experienced IT technicians at Dave’s Computers are here to help. We specialize in getting your printer up and running smoothly by installing drivers and software, connecting to your home network, and troubleshooting any issues.
+If you have an HP Officejet, HP Envy, HP Deskjet, or HP ColorJet, our experienced IT technicians are here to help. We specialize in getting your printer up and running smoothly by installing drivers and software, connecting to your home network, and troubleshooting any issues.
 
 Whether you've just purchased a new printer, your current printer has stopped working, or you need to connect your printer to a new computer, we've got you covered. Contact us to schedule a convenient time for a visit from our team, and let us handle the technical details so you can get back to printing with ease.</p>
         </div>
