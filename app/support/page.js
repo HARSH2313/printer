@@ -177,7 +177,7 @@ const Support = () => {
           </div>
           <div className="col-md-4">
             <div className="card mb-4">
-              <img src="/images/hp1.png" className="card-img-top" alt="Blog Post 2" />
+              <img src="/images/hp2.png" className="card-img-top" alt="Blog Post 2" />
               <div className="card-body">
                 <h5 className="card-title">Troubleshooting Printer Errors</h5>
                 <p className="card-text">Find out how to resolve common printer errors and get back to printing quickly.</p>
@@ -187,7 +187,7 @@ const Support = () => {
           </div>
           <div className="col-md-4">
             <div className="card mb-4">
-              <img src="/images/hp1.png" className="card-img-top" alt="Blog Post 3" />
+              <img src="/images/hp6.png" className="card-img-top" alt="Blog Post 3" />
               <div className="card-body">
                 <h5 className="card-title">Essential Printer Maintenance</h5>
                 <p className="card-text">Discover the best practices for maintaining your printer to ensure its longevity and performance.</p>
