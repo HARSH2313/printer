@@ -133,37 +133,6 @@ If you are using an HP DesignJet printer, ensure it is powered on, then access t
           </Col>
         </Row>
       </section>
-
-      <section className="my-4">
-        <h2 className="mb-3">Need Further Assistance?</h2>
-        <p>Our support team is here to help you.</p>
-        <ListGroup>
-          <ListGroup.Item>
-            <Link href="/troubleshooting" className="btn btn-primary">FAQs</Link>
-          </ListGroup.Item>
-          <ListGroup.Item>
-            <Link href="/troubleshooting" className="btn btn-secondary">Contact Us</Link>
-          </ListGroup.Item>
-          <ListGroup.Item>
-            <Link href="/troubleshooting" className="btn btn-success">Live Chat</Link>
-          </ListGroup.Item>
-        </ListGroup>
-      </section>
-
-      <section className="my-4">
-        <h2 className="mb-3">Additional Resources</h2>
-        <ListGroup>
-          <ListGroup.Item>
-            <Link href="/troubleshooting" className="btn btn-info">User Manuals</Link>
-          </ListGroup.Item>
-          <ListGroup.Item>
-            <Link href="/troubleshooting" className="btn btn-info">Video Tutorials</Link>
-          </ListGroup.Item>
-          <ListGroup.Item>
-            <Link href="/troubleshooting" className="btn btn-info">Maintenance Tips</Link>
-          </ListGroup.Item>
-        </ListGroup>
-      </section>
     </Container>
   );
 };
