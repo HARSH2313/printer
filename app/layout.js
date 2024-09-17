@@ -7,7 +7,7 @@ import Footer from "../components/Footer";
 export default function RootLayout({ children }) {
   useEffect(()=>{
     const script = document.createElement("script");
-    script.src = "https://code.jivochat.com/widget/hL1jwWDcZ2";
+    script.src = "https://code.jivosite.com/widget/hLljwWDcZ2";
     script.async = true;
     script.onload=()=>{
       console.log("jivochat script loaded successfully");
