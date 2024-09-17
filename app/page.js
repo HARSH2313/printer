@@ -1,10 +1,36 @@
-import React from 'react';
+"use client"
+import React, {useEffect} from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import styles from '../styles/page.module.css'; // Import the CSS module
 import ContactForm from '../components/ContactForm';
 import PrinterSetupClient from '../components/PrinterSetupClient';
 
 const HomePage = () => {
+  useEffect(() => {
+    // Create and configure the script element
+    const script = document.createElement("script");
+    script.src = "https://code.jivosite.com/widget/hLljwWDcZ2";
+    script.async = true;
+
+    // Define what to do once the script is loaded successfully
+    script.onload = () => {
+      console.log("JivoChat script loaded successfully.");
+    };
+
+    // Define what to do if the script fails to load
+    script.onerror = () => {
+      console.error("Failed to load JivoChat script.");
+    };
+
+    // Append the script to the document body
+    document.body.appendChild(script);
+
+    // Cleanup function to remove the script when the component unmounts
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []); // Empty dependency array ensures this runs once when the component mounts
+
   return (
 
     <div className={styles.container}>
